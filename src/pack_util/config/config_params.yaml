@@ -1,0 +1,47 @@
+qcar_node:
+  ros__parameters:
+    is_simulation: false
+    qcar_frequency: 100
+motive_node:
+  ros__parameters:
+    motive_ip: "192.168.2.5"
+waypoint_node:
+  ros__parameters:
+    velocity_ref: 0.1
+    velocity_kp: 0.1
+    velocity_ki: 1
+    steering_k_stanely: 0.85
+    start_delay: 0.85
+rgbd_node:
+  ros__parameters:
+    rgbd_color_resolution_width: 640 # virtual car always uses 640
+    rgbd_color_resolution_height: 480 # virtual car always uses 480
+    rgbd_depth_resolution_width: 640 # virtual car always uses 640
+    rgbd_depth_resolution_height: 480 # virtual car always uses 480
+    rgbd_color_freq: 30 # virtual car always uses 30
+    rgbd_depth_freq: 15 # virtual car always uses 15
+imgviewer_node:
+  ros__parameters:
+    mode: "DEPTH" # RGB or DEPTH
+    draw_yolo_detections: true
+lane_node:
+  ros__parameters:
+    crop_top: 300
+    H_low: 17
+    S_low: 50
+    V_low: 100
+    H_high: 45
+    S_high: 255
+    V_high: 255
+yolo_node:
+  ros__parameters:
+    threshold: 0.98
+rgb_node:
+  ros__parameters:
+    mode: "RGB" # RGB or DEPTH
+    draw_yolo_detections: true
+depth_node:
+  ros__parameters:
+    mode: "DEPTH" # RGB or DEPTH
+    draw_yolo_detections: true
+    

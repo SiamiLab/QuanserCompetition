@@ -1,0 +1,9 @@
+build/
+install/
+log/
+
+# weight file for yolo is too large
+*.weights
+
+# .so file for yolo must be compiled on each machine
+libdarknet.so
