@@ -54,7 +54,7 @@ pip3 install scikit-image # use pip instead of pip3 if needed
 - **Compiling The Framework**
 	- download this projects either as a zip file of clone it using git.
 	```sh
-	git clone TODO
+	git clone https://github.com/SiamiLab/QuanserCompetition.git
 	```
 	- go to the top level folder wehre the src folder exists and build the project using colcon
 	```sh
