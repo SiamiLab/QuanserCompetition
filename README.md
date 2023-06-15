@@ -6,7 +6,7 @@
 title="Logos.png" width="500" align="middle" />
 </p>
 
-<p  align="center"> <b>SiamiLab Project for ACC 2023 Competitions <br> (SELF-DRIVING CAR COMPETITION)</b> </p>
+<p  align="center"> <b>SiamiLab group's Framework for ACC 2023 Competitions <br> (SELF-DRIVING CAR COMPETITION)</b> </p>
 
 </br>
 
