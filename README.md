@@ -15,9 +15,11 @@ In this project, we propose a framework for the [QCar](https://www.quanser.com/p
 
 This framework has been developed by [SiamiLab](http://web.mit.edu/~siami/www/) and was awarded first place in the [ACC 2023](https://acc2023.a2c2.org/) Quanser Competition.
 
+</br>
+
 <p align="center">
 <img src="resources/winner.jpeg" alt="winner.jpeg"
-title="winner.jpeg" width="500" align="middle" />
+title="winner.jpeg" width="700" align="middle" />
 </p>
 
 </br>
@@ -98,7 +100,7 @@ The final architecture and dependencies of our nodes is as follows.
 
 <p align="center">
 <img src="resources/NodeGraph.png" alt="NodeGraph.png"
-title="NodeGraph.png" width="500" align="middle" />
+title="NodeGraph.png" width="800" align="middle" />
 </p>
 
 </br>
@@ -107,7 +109,7 @@ The final result of the frameworks should be like this. (use rviz2 to visualize)
 
 <p align="center">
 <img src="resources/rviz.jpg" alt="rviz.jpg"
-title="rviz.jpg" width="500" align="middle" />
+title="rviz.jpg" width="600" align="middle" />
 </p>
 
 </br>
